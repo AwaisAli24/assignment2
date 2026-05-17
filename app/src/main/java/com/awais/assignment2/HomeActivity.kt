@@ -2,32 +2,32 @@ package com.awais.assignment2
 
 import android.content.Intent
 import android.os.Bundle
-import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
+import com.google.android.material.card.MaterialCardView
 
 class HomeActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
 
-        val btnLogin = findViewById<Button>(R.id.btnLogin)
-        val btnRegister = findViewById<Button>(R.id.btnRegister)
-        val btnAbout = findViewById<Button>(R.id.btnAbout)
-        val btnContact = findViewById<Button>(R.id.btnContact)
+        val cardLogin = findViewById<MaterialCardView>(R.id.cardLogin)
+        val cardRegister = findViewById<MaterialCardView>(R.id.cardRegister)
+        val cardAbout = findViewById<MaterialCardView>(R.id.cardAbout)
+        val cardContact = findViewById<MaterialCardView>(R.id.cardContact)
 
-        btnLogin.setOnClickListener {
+        cardLogin.setOnClickListener {
             startActivity(Intent(this, LoginActivity::class.java))
         }
 
-        btnRegister.setOnClickListener {
+        cardRegister.setOnClickListener {
             startActivity(Intent(this, RegisterActivity::class.java))
         }
 
-        btnAbout.setOnClickListener {
+        cardAbout.setOnClickListener {
             startActivity(Intent(this, AboutActivity::class.java))
         }
 
-        btnContact.setOnClickListener {
+        cardContact.setOnClickListener {
             startActivity(Intent(this, ContactActivity::class.java))
         }
     }

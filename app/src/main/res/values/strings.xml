@@ -1,3 +1,41 @@
 <resources>
-    <string name="app_name">assignment2</string>
+    <string name="app_name">Password Manager</string>
+    <string name="title_home">Password Manager</string>
+    <string name="subtitle_home">Secure &amp; Simple</string>
+    <string name="home_card_login">Access My Vault</string>
+    <string name="home_card_register">Create New Account</string>
+    <string name="home_card_about">App Information</string>
+    <string name="home_card_contact">Get in Touch</string>
+
+    <string name="title_login">Welcome Back</string>
+    <string name="subtitle_login">Please sign in to continue</string>
+    <string name="hint_email">Email (RollNo@UCP.com)</string>
+    <string name="hint_password">Password</string>
+    <string name="btn_login">Login</string>
+
+    <string name="title_register">Create Account</string>
+    <string name="subtitle_register">Join our secure community</string>
+    <string name="hint_name">Full Name</string>
+    <string name="hint_phone">Phone Number</string>
+    <string name="hint_password_reg">Password (must contain \'Awais Ali\')</string>
+    <string name="btn_register">Register</string>
+
+    <string name="title_about">About Password Manager</string>
+    <string name="desc_about">This application provides a secure and intuitive way to manage your digital credentials. Developed as part of the Mobile App Development course.</string>
+    <string name="label_developer">Developer</string>
+    <string name="dev_name">Awais Ali</string>
+
+    <string name="title_contact">Contact Information</string>
+    <string name="contact_email">G1F22UBSCS070@UCP.com</string>
+    <string name="contact_phone">+92-320-6343354</string>
+    <string name="contact_address">UCP, Lahore, Pakistan</string>
+
+    <string name="desc_logo">App Logo</string>
+    <string name="desc_login_icon">Login Icon</string>
+    <string name="desc_register_icon">Register Icon</string>
+    <string name="desc_about_icon">About Icon</string>
+    <string name="desc_contact_icon">Contact Icon</string>
+    <string name="desc_email_icon">Email Icon</string>
+    <string name="desc_phone_icon">Phone Icon</string>
+    <string name="desc_address_icon">Address Icon</string>
 </resources>
